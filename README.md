@@ -1,1 +1,1 @@
-Repository for aidanpasquale.com using the [Jekyll Resume Theme](https://github.com/murraco/jekyll-theme-minimal-resume).
+Repository for <aidanpasquale.com> using the [Jekyll Resume Theme](https://github.com/murraco/jekyll-theme-minimal-resume).
