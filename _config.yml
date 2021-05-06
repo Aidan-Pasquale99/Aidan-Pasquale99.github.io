@@ -14,3 +14,5 @@ github_username:  Aidan-Pasquale99
 # gplus_username:  lorem_ipsum
 
 exclude: ['package.json', 'src' , 'node_modules']
+include:
+  - "_img"
