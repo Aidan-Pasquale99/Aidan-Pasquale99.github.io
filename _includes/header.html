@@ -1,10 +1,21 @@
 <div id="particles-js">
   <div class="header">
       <h1>
-        <span><img style="width: 20%;" src="{{ '/assets/img/profile_photo.png' }}"></span>
-        <span class="site-title">{{ site.username }}</span>
-        <span class="site-description">{{ site.user_title }}</span>
+        <span><img style="width: 20%;" class="not-selectable" src="{{ '/assets/img/profile_photo.png' }}"></span>
+        <span class="site-title not-selectable">{{ site.username }}</span>
+        <span class="site-description not-selectable">{{ site.user_title }}</span>
+        
+        <span class="plyr">
+          <audio id="player" controls>
+            <source src="Opus.mp3" type="audio/mp3"/>
+          </audio>
+        </span>
+        <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+        <script>
+          const player = new Plyr('#player');
+        </script>
       </h1>
+
       <div class="header-icons">
         <a aria-label="Email" href="mailto:aidanpasquale75@gmail.com"><i class="icon fa fa-envelope"></i></a>
         <a aria-label="LinkedIn" target="_blank" href="https://www.linkedin.com/in/aidan-pasquale/"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a>
